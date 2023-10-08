@@ -18,7 +18,7 @@ public class Bitmap extends Provider {
     private final int height = 8;
     private final int ascent;
     @NonNull
-    private List<@NonNull Character> characters;
+    private List<@NonNull String> chars;
 
     @Override
     public @NonNull String getType() {
