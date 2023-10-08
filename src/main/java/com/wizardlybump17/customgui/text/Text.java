@@ -13,7 +13,7 @@ public class Text {
     private final Font font;
 
     @NonNull
-    public PositionalText at(double x, double y) {
-        return new PositionalText(text, font, x, y);
+    public PositionableText at(double x, double y) {
+        return new PositionableText(text, font, x, y);
     }
 }
