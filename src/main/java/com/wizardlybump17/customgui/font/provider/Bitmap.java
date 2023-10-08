@@ -10,7 +10,7 @@ import java.util.List;
 @EqualsAndHashCode(callSuper = true)
 @Data
 @Builder
-public class BitMap extends Provider {
+public class Bitmap extends Provider {
 
     @NonNull
     private final String file;

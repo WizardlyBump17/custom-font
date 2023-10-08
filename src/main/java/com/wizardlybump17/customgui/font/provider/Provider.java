@@ -8,8 +8,8 @@ public abstract class Provider {
     public abstract String getType();
 
     @NonNull
-    public static BitMap.BitMapBuilder bitMap() {
-        return BitMap.builder();
+    public static Bitmap.BitMapBuilder bitMap() {
+        return Bitmap.builder();
     }
 
     @NonNull
