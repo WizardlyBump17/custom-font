@@ -11,4 +11,9 @@ public class Text {
     private final String text;
     @NonNull
     private final Font font;
+
+    @NonNull
+    public PositionalText at(double x, double y) {
+        return new PositionalText(text, font, x, y);
+    }
 }
