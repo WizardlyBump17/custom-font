@@ -11,4 +11,9 @@ public class GUI {
 
     @NonNull
     private final List<@NonNull Element> elements;
+
+    public void render() {
+        for (Element element : elements)
+            element.render(this);
+    }
 }
