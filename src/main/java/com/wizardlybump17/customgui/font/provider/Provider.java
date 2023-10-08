@@ -5,6 +5,9 @@ import lombok.NonNull;
 public abstract class Provider {
 
     @NonNull
+    public abstract String getType();
+
+    @NonNull
     public static BitMap.BitMapBuilder bitMap() {
         return BitMap.builder();
     }

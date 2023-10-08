@@ -19,4 +19,9 @@ public class BitMap extends Provider {
     private final int ascent;
     @NonNull
     private List<@NonNull Character> characters;
+
+    @Override
+    public @NonNull String getType() {
+        return "bitmap";
+    }
 }

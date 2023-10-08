@@ -14,4 +14,9 @@ public class Space extends Provider {
 
     @NonNull
     private final Map<@NonNull Character, @NonNull Float> advances;
+
+    @Override
+    public @NonNull String getType() {
+        return "space";
+    }
 }
